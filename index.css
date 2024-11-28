@@ -1,0 +1,76 @@
+img{
+    margin: 15px;
+    width: 30vw;
+}
+
+video{
+    margin: 10px;
+    width: 25vw;
+}
+
+.txt{
+    width: 100vw;
+}
+
+a{
+    margin: 10px;
+}
+
+a,a:hover,a:visited{
+    color: inherit;
+}
+
+#icon{
+    width: 5vw;
+    margin-left: 50%;
+    max-width: 100px;
+    height: auto;
+}
+
+.button_icon{
+    width: 2vw;
+    cursor: pointer;
+    max-width: 100px;
+    height: auto;
+}
+
+iframe{
+    aspect-ratio: 16 / 9;
+    margin: 10px;
+    width: 25vw;
+}
+
+body{
+    background-image : url(images/wallpaper/pexels-codioful-\(formerly-gradienta\)-7130465.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.subject{
+    padding-top: 140px;
+    z-index: 0;
+    text-align:center
+}
+
+footer{
+    margin: 100px;
+    text-align:center
+}
+
+.category{
+    margin: 10%;
+}
